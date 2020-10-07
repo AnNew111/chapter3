@@ -1,0 +1,9 @@
+your.name: "ASSU ASSU DEV"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true

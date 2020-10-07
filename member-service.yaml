@@ -1,0 +1,16 @@
+your.name: "ASSU ASSU DEFAULT Modify!!!!!!"
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: '{cipher}444bc190937bd870be36cd07d2a41d94c8df8702b34520467b91c4e20da33b28'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+      
